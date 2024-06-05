@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33417.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.AzureCosmosDb.Demo", "Blazor.AzureCosmosDb.Demo\Blazor.AzureCosmosDb.Demo.csproj", "{370AC34F-367B-4EA7-827E-CEF64CE768A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesWeb.NetCore.EF.Demo", "RazorPagesWeb.NetCore.EF.Demo\RazorPagesWeb.NetCore.EF.Demo.csproj", "{196939B0-89AC-4A35-AF1E-4374CD161CE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc.StorageAccount.Demo", "Mvc.StorageAccount.Demo\Mvc.StorageAccount.Demo.csproj", "{8DB90888-D7C2-4158-BD81-A2ED82836013}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.QueueConsumer.Demo", "Console.QueueConsumer.Demo\Console.QueueConsumer.Demo.csproj", "{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-app-trev-vs", "azure-app-trev-vs\azure-app-trev-vs.csproj", "{68159D2F-8734-482A-886C-A062F70931A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{370AC34F-367B-4EA7-827E-CEF64CE768A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370AC34F-367B-4EA7-827E-CEF64CE768A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370AC34F-367B-4EA7-827E-CEF64CE768A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370AC34F-367B-4EA7-827E-CEF64CE768A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196939B0-89AC-4A35-AF1E-4374CD161CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196939B0-89AC-4A35-AF1E-4374CD161CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196939B0-89AC-4A35-AF1E-4374CD161CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196939B0-89AC-4A35-AF1E-4374CD161CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB90888-D7C2-4158-BD81-A2ED82836013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB90888-D7C2-4158-BD81-A2ED82836013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB90888-D7C2-4158-BD81-A2ED82836013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB90888-D7C2-4158-BD81-A2ED82836013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB8450E-5D31-4F12-8446-0A3CBB1D163A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68159D2F-8734-482A-886C-A062F70931A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68159D2F-8734-482A-886C-A062F70931A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68159D2F-8734-482A-886C-A062F70931A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68159D2F-8734-482A-886C-A062F70931A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89FBB65F-C566-4845-BA00-143E8B8E22DA}
+	EndGlobalSection
+EndGlobal
