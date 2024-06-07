@@ -3,7 +3,7 @@ using Azure.Storage.Queues;
 using Azure.Storage.Queues.Models;
 using System.Text;
 
-string connectionString = Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING");
+string connectionString = Environment.GetEnvironmentVariable("AZURE_STORAGE_CONNECTION_STRING")!;
 QueueClient queue = new QueueClient(connectionString, "attendee-emails");
 
 if (await queue.ExistsAsync())

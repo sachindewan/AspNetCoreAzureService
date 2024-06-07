@@ -13,6 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.QueueConsumer.Demo"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azure-app-trev-vs", "azure-app-trev-vs\azure-app-trev-vs.csproj", "{68159D2F-8734-482A-886C-A062F70931A7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ServivceBusSender.Demo", "Console.ServivceBusSender.Demo\Console.ServivceBusSender.Demo.csproj", "{FEFED766-3026-44A0-AC83-20BE5910C8DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console.ServiceBusReciver.Demo", "Console.ServiceBusReciver.Demo\Console.ServiceBusReciver.Demo.csproj", "{04D887FF-0A8E-4FFB-B8ED-DA3946F029FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunction", "AzureFunction\AzureFunction.csproj", "{4EF69C97-067A-49CA-8ADC-7AD159371736}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{68159D2F-8734-482A-886C-A062F70931A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68159D2F-8734-482A-886C-A062F70931A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68159D2F-8734-482A-886C-A062F70931A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFED766-3026-44A0-AC83-20BE5910C8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFED766-3026-44A0-AC83-20BE5910C8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFED766-3026-44A0-AC83-20BE5910C8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFED766-3026-44A0-AC83-20BE5910C8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D887FF-0A8E-4FFB-B8ED-DA3946F029FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D887FF-0A8E-4FFB-B8ED-DA3946F029FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D887FF-0A8E-4FFB-B8ED-DA3946F029FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D887FF-0A8E-4FFB-B8ED-DA3946F029FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF69C97-067A-49CA-8ADC-7AD159371736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF69C97-067A-49CA-8ADC-7AD159371736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF69C97-067A-49CA-8ADC-7AD159371736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF69C97-067A-49CA-8ADC-7AD159371736}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
